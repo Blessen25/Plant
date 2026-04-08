@@ -1,5 +1,5 @@
 # Plant
 
 
-# Frontend -> React and Tailwind CSS.
+# Frontend -> React.
 # Backend -> Django.
