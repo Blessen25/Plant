@@ -1,9 +1,13 @@
+import Header from "./Components/header"
+
 const App = () => {
 
   return (
 
     <>
-      <h1>asassdlajds</h1>
+    <div className="cstm_container">
+      <Header />
+    </div>
     </>
   )
 }
