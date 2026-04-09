@@ -1,3 +1,4 @@
+import {Button_with_icon_primary, Button_with_icon_secondary, Button_with_icon_secondary_rev, Button_withouticon_primary, Button_withouticon_secondary} from '../Extras/button';
 import './home.css';
 
 const Home = () => {
@@ -5,7 +6,9 @@ const Home = () => {
         <div className="homemain">
             <div className="home_one">
                 <h1>Best house plants varieties.</h1>
-                <button>Shop Now</button>
+                <Button_withouticon_primary text='Shop Now'/>
+                <Button_with_icon_secondary_rev text='Learn More' icon='fa-solid fa-right-long'/>
+                <Button_withouticon_secondary text='Contact Us'/>
                 <div className="home_one-press">
                     <h3>Beautiful living greenery for homes and offices</h3>
                     <p className='text-small' style={{opacity:'.6'}}>We've been mentioned in the press</p>

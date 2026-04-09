@@ -28,6 +28,7 @@
     height: 800px;
     object-fit: cover;
     object-position: right;
+    border-radius: 10px;
 }
 
 .home_one-press {
