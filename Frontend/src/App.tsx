@@ -1,4 +1,5 @@
 import Header from "./Components/header"
+import './typography.css';
 
 const App = () => {
 

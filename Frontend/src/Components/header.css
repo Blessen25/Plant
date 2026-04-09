@@ -1,29 +1,148 @@
-.header {
+/* ------------------------------
+   HEADER BASE (DESKTOP DEFAULT)
+------------------------------ */
 
+.header {
     display: flex;
     justify-content: space-between;
     gap: 80px;
     flex-direction: row;
     align-items: center;
+    height: 50px;
 }
 
 .logoimg {
-
-    border: 1px solid black;
     width: 126px;
     object-fit: cover;
 }
 
 .headerdetails {
-
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
+}
+
+.headerdetails a,
+.headericons a {
+    color: black;
+    opacity: .6;
+    transition: all .7s ease;
+    cursor: pointer;
+}
+
+.headerdetails a:hover,
+.headericons a:hover {
+    opacity: 1;
 }
 
 .headericons {
-
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 24px;
+}
+
+/* Hide hamburger icon on desktop */
+.menu-toggle {
+    display: none;
+}
+
+/* Prevent sidebar/overlay from affecting desktop */
+.sidebar,
+.overlay {
+    display: none;
+}
+
+
+
+/* ------------------------------
+   RESPONSIVE (≤ 991px)
+------------------------------ */
+@media (max-width: 991px) {
+
+    /* Hide header nav */
+    .headerdetails {
+        display: none;
+    }
+
+    /* Show hamburger icon */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Overlay */
+    .overlay {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s ease;
+        z-index: 9;
+    }
+
+    .overlay.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -260px;
+        width: 260px;
+        height: 100%;
+        background: #fff;
+        padding: 20px;
+        transition: right .3s ease;
+        z-index: 10;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar.open {
+        right: 0;
+    }
+
+    /* Sidebar header with X button */
+    .sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .close-btn {
+        cursor: pointer;
+        opacity: .6;
+        transition: .3s ease;
+    }
+
+    .close-btn:hover {
+        opacity: 1;
+    }
+
+    .sidebar-links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .sidebar-links a {
+        font-size: 16px;
+        opacity: .7;
+        cursor: pointer;
+        transition: .3s ease;
+    }
+
+    .sidebar-links a:hover {
+        opacity: 1;
+    }
 }
