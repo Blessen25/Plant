@@ -1,4 +1,5 @@
 import Header from "./Components/header"
+import Home from "./Components/Home/home";
 import './typography.css';
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <div className="main_container">
       <div className="cstm_container">
         <Header />
+        <Home />
       </div>  
     </div>
     </>
