@@ -4,4 +4,26 @@
     justify-content: space-between;
     gap: 80px;
     flex-direction: row;
+    align-items: center;
+}
+
+.logoimg {
+
+    border: 1px solid black;
+    width: 126px;
+    object-fit: cover;
+}
+
+.headerdetails {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.headericons {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }

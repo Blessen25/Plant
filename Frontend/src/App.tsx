@@ -5,8 +5,10 @@ const App = () => {
   return (
 
     <>
-    <div className="cstm_container">
-      <Header />
+    <div className="main_container">
+      <div className="cstm_container">
+        <Header />
+      </div>  
     </div>
     </>
   )
