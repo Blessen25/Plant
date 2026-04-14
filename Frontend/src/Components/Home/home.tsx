@@ -1,28 +1,50 @@
-import {Button_with_icon_primary, Button_with_icon_secondary, Button_with_icon_secondary_rev, Button_withouticon_primary, Button_withouticon_secondary} from '../Extras/button';
+import {Button_with_icon_secondary_rev, Button_withouticon_primary} from '../Extras/button';
 import './home.css';
 
-const Home = () => {
+export const Home_Best_House_Plants = () => {
+
     return (
-        <div className="homemain">
-            
-            <div className="home_one">
-                <h1>Best house plants varieties.</h1>
-                <Button_withouticon_primary text='Shop Now'/>
-                <div className="home_one-press">
-                    <h3>Beautiful living greenery for homes and offices</h3>
-                    <p className='text-small' style={{opacity:'.6'}}>We've been mentioned in the press</p>
-                    <div className="press-logos">
-                        <h4>Bloomberg</h4>
-                        <h4>Forbes</h4>
+
+        <>
+            <div className="homemain">
+                <div className="home_one">
+                    <h1>Best house plants varieties.</h1>
+                    <Button_withouticon_primary text='Shop Now'/>
+                    <div className="home_one-press">
+                        <h3>Beautiful living greenery for homes and offices</h3>
+                        <p className='text-small' style={{opacity:'.6'}}>We've been mentioned in the press</p>
+                        <div className="press-logos">
+                            <h4>Bloomberg</h4>
+                            <h4>Forbes</h4>
+                        </div>
                     </div>
                 </div>
+                <div className="home_two">
+                    <img src="../../public/assets/images/homebanner.png" alt="home banner" className='homebannerimg'/>
+                </div>
             </div>
-            <div className="home_two">
-                <img src="../../public/assets/images/homebanner.png" alt="home banner" className='homebannerimg'/>
-            </div>
-        </div>
-        
-    );
+        </>
+    )
 }
 
-export default Home;
+export const Home_Take_Care = () => {
+
+    return(
+
+        <>
+        <div className="take_care_div">
+            <div className="takecaremain">
+                <div className="takecare_one">
+                    <p className='text-normal'>Each houseplant set is handled quickly and safely before being sent to your destination in specially designed insulated packaging.</p>
+                </div>
+                <div className="takecare_two">
+                    <h5>Learn how we take care of your plant at every stage of its journey from our greenhouse to your home.</h5>
+                </div>
+            </div>
+            <div className="take_care_mid">
+                <Button_with_icon_secondary_rev text='Learn More' icon='fa-solid fa-right-long'/>
+            </div>
+        </div>
+        </>
+    )
+}
