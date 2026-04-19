@@ -80,6 +80,53 @@
     justify-content: center ;
 }
 
+.home_step_div {
+
+    position: relative;
+
+}
+
+.home_step_img {
+
+    width: 100%;
+    position: relative;
+}
+
+.img-step-one {
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+}
+
+.home_step_background {
+
+    position: absolute;
+    top: 50%;
+    background-color: #EDEDED;
+    height: 340px;
+    width: 100%;
+    z-index: 9;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.steps {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fa-circle-left:hover, .fa-circle-right:hover {
+
+    font-size: 26px;
+    transition: all .7s;
+}
 
 @media screen and (max-width: 767px) {
     

@@ -48,3 +48,27 @@ export const Home_Take_Care = () => {
         </>
     )
 }
+
+export const Home_Plant_Steps = () => {
+
+    return(
+
+        <>
+            <div className="home_step_div">
+                <div className="home_step_img">
+                    <img src="../../public/assets/images/home_step_one.jpg" alt="Plant Steps" className='img-step-one'/>
+                    <div className="home_step_background">
+                        <div className="steps">
+                            <p className='text-big'>Step 1</p>
+                            <h2>We put everything together</h2>
+                            <div className="steps-chivron">
+                                <span><i className="fa-regular fa-circle-left icon-lg"></i></span>
+                                <span><i className="fa-regular fa-circle-right icon-lg"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
