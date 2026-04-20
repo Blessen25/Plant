@@ -72,3 +72,15 @@ export const Home_Plant_Steps = () => {
         </>
     )
 }
+
+export const Home_Best_Seller = () => {
+
+    return(
+
+        <>
+            <div className="home_best">
+                <h1>Please get plants   </h1>
+            </div>
+        </>
+    )
+}

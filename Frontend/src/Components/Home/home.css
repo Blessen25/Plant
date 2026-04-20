@@ -90,6 +90,7 @@
 
     width: 100%;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .img-step-one {
@@ -105,7 +106,7 @@
     position: absolute;
     top: 50%;
     background-color: #EDEDED;
-    height: 340px;
+    height: 315px;
     width: 100%;
     z-index: 9;
     display: flex;
@@ -126,6 +127,24 @@
 
     font-size: 26px;
     transition: all .7s;
+}
+
+.home_best {
+
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1299px) {
+    
+    .home_step_background {
+
+        height: 270px;
+    }
+
+    .home_best {
+
+        margin-top: 47px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -155,6 +174,10 @@
         gap: 20px;
     }
 
+    .home_step_background {
+
+        height: 220px;
+    }
 
 }
 
