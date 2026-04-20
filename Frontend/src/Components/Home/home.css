@@ -179,6 +179,17 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .home_step_background {
+
+        height: 263px;
+    }
+
+    .home_best {
+
+        margin-top: 52px;
+    }
+
     
     .homebannerimg {
 
@@ -203,17 +214,51 @@
     .takecaremain {
 
         gap: 20px;
+
     }
 
-    .home_step_background {
+    .fa-circle-left:hover, .fa-circle-right:hover {
 
-        height: 220px;
+        font-size: 24px;
+        transition: all .7s;
     }
 
 }
 
 
 @media screen and (max-width: 575px) {
+
+    .fa-circle-left:hover, .fa-circle-right:hover {
+
+        font-size: 18px;
+        transition: all .7s;
+    }
+
+    .fa-circle-left, .fa-circle-right {
+
+        font-size: 12px !important;
+    }
+
+    .img-step-one {
+
+        height: 300px;
+    }
+
+    .home_step_background {
+
+        height: 194px;
+    }
+
+    .home_best {
+
+        margin-top: 22px;
+    }
+
+    .steps {
+
+        padding: 15px;
+        gap: 15px;
+    }
     
     .homemain {
 
@@ -257,6 +302,16 @@
 
         gap: 15px;
     }
+
+    .text-small-cstm-h3 {
+
+        font-size: 13px;
+    }
+
+    .step-1-text {
+
+        font-size: 11px !important;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -266,4 +321,8 @@
 
         height: 390px;
     }
+
+    
+
 }
+
