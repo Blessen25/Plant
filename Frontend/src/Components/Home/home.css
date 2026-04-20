@@ -138,12 +138,43 @@
     
     .home_step_background {
 
-        height: 270px;
+        height: 280px;
     }
 
     .home_best {
 
-        margin-top: 47px;
+        margin-top: 57px;
+    }
+}
+
+@media screen and (max-width:1099px) {
+    
+    .home_step_background {
+
+        height: 258px;
+    }
+
+    .home_best {
+
+        margin-top: 57px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .img-step-one {
+
+        height: 380px
+    }
+
+    .home_step_background {
+
+        height: 263px;
+    }
+
+    .home_best {
+
+        margin-top: 52px;
     }
 }
 
