@@ -79,7 +79,8 @@ export const Home_Best_Seller = () => {
 
         <>
             <div className="home_best">
-                <h1>Please get plants   </h1>
+                
+                <p className='text-normal fw-600'>OUR SHOP</p>
             </div>
         </>
     )
