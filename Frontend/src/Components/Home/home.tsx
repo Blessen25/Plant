@@ -1,4 +1,4 @@
-import {Button_with_icon_secondary_rev, Button_withouticon_primary} from '../Extras/button';
+import {Button_with_icon_primary, Button_with_icon_secondary_rev, Button_withouticon_primary} from '../Extras/button';
 import './home.css';
 
 export const Home_Best_House_Plants = () => {
@@ -80,9 +80,12 @@ export const Home_Best_Seller = () => {
         <>
             <div className="home_best">
                 <p className='text-normal fw-600'>OUR SHOP</p>
-                <h1 className='best-seller'>Here are the best seller
+                <h1 className='best-seller fw-500'>Here are the best seller
                     from our varieties</h1>
+                <Button_withouticon_primary text='See All'/>
+
             </div>
         </>
     )
 }
+
