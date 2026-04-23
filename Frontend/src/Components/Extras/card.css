@@ -1,0 +1,16 @@
+.card_div {
+
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards_best {
+
+    border: 1px solid black;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+}
