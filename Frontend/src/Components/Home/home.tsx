@@ -85,6 +85,7 @@ export const Home_Best_Seller = () => {
                     from our varieties</h1>
                 <Button_withouticon_primary text='See All'/>
                 <Cards_Best_Seller />
+
             </div>
         </>
     )

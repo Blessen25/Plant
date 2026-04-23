@@ -5,12 +5,19 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cards_best {
 
     border: 1px solid black;
-    padding: 20px;
-    height: 250px;
-    width: 250px;
+    height: 400px;
+    width: 28%;
+}
+
+.cards_best_img {
+
+    width: 100%;
+    border: 2px solid black;
+    height: 360px;
 }
