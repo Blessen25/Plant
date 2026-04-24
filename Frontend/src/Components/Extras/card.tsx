@@ -1,4 +1,5 @@
 import type { Card_Plant_Props } from '../../interface';
+import { Button_with_icon_primary } from './button';
 import './card.css';
 
 export const Cards_Best_Seller = () => {
@@ -7,7 +8,7 @@ export const Cards_Best_Seller = () => {
 
         <>
             <div className="card_div">
-                <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='' card_text='' />
+                <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='110 AUD' card_text='Fiddle-leaf fig' />
                 <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='' card_text='' />
                 <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='' card_text='' />
                 
@@ -25,7 +26,8 @@ export const Card_Best:React.FC<Card_Plant_Props> = (Props) => {
                 <img src={Props.card_img} alt="Plant Image" className='img_plant'/>
             </div>
             <div className="cards_details">
-                
+                <p className='text-small'>{Props.card_text}</p>
+                <p className='text-small'>{Props.card_price}</p>
             </div>
         </div>
     )
