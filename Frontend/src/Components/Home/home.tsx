@@ -21,7 +21,7 @@ export const Home_Best_House_Plants = () => {
                     </div>
                 </div>
                 <div className="home_two">
-                    <img src="../../public/assets/images/homebanner.png" alt="home banner" className='homebannerimg'/>
+                    <img src="/assets/images/homebanner.png" alt="home banner" className='homebannerimg'/>
                 </div>
             </div>
         </>
@@ -57,7 +57,7 @@ export const Home_Plant_Steps = () => {
         <>
             <div className="home_step_div">
                 <div className="home_step_img">
-                    <img src="../../public/assets/images/home_step_one.jpg" alt="Plant Steps" className='img-step-one'/>
+                    <img src="/assets/images/home_step_one.jpg" alt="Plant Steps" className='img-step-one'/>
                     <div className="home_step_background">
                         <div className="steps">
                             <p className='text-big step-1-text'>Step 1</p>
