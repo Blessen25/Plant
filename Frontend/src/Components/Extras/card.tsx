@@ -7,9 +7,9 @@ export const Cards_Best_Seller = () => {
 
         <>
             <div className="card_div">
-                <Card_Best card_img='/assets/images/plant_one.png' card_price='110 AUD' card_text='Fiddle-leaf fig' />
-                <Card_Best card_img='/assets/images/plant_one.png' card_price='' card_text='' />
-                <Card_Best card_img='/assets/images/plant_one.png' card_price='' card_text='' />
+                <Card_Best card_img='/public/assets/images/plant_one.png' card_price='110 AUD' card_text='Fiddle-leaf fig' />
+                <Card_Best card_img='/public/assets/images/plant_one.png' card_price='' card_text='' />
+                <Card_Best card_img='/public/assets/images/plant_one.png' card_price='' card_text='' />
                 
             </div>
         </>

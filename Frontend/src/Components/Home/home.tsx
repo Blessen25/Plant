@@ -1,5 +1,6 @@
 import {Button_with_icon_primary, Button_with_icon_secondary_rev, Button_withouticon_primary} from '../Extras/button';
-import { Cards_Best_Seller } from '../Extras/Card';
+import { Cards_Best_Seller } from '../Extras/card';
+
 import './home.css';
 
 export const Home_Best_House_Plants = () => {
@@ -21,7 +22,7 @@ export const Home_Best_House_Plants = () => {
                     </div>
                 </div>
                 <div className="home_two">
-                    <img src="/assets/images/homebanner.png" alt="home banner" className='homebannerimg'/>
+                    <img src="/public/assets/images/homebanner.png" alt="home banner" className='homebannerimg'/>
                 </div>
             </div>
         </>
@@ -57,7 +58,7 @@ export const Home_Plant_Steps = () => {
         <>
             <div className="home_step_div">
                 <div className="home_step_img">
-                    <img src="/assets/images/home_step_one.jpg" alt="Plant Steps" className='img-step-one'/>
+                    <img src="/public/assets/images/home_step_one.jpg" alt="Plant Steps" className='img-step-one'/>
                     <div className="home_step_background">
                         <div className="steps">
                             <p className='text-big step-1-text'>Step 1</p>
