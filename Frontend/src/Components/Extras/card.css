@@ -1,6 +1,5 @@
 .card_div {
 
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -10,14 +9,30 @@
 
 .cards_best {
 
-    border: 1px solid black;
-    height: 400px;
+    height: 520px;
     width: 28%;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
 }
 
 .cards_best_img {
 
     width: 100%;
-    border: 2px solid black;
-    height: 360px;
+    height: 460px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.cards_best:hover {
+
+    transform: translateY(-10px);
+}
+
+.img_plant {
+
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }

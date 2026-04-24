@@ -7,3 +7,10 @@ export interface ButtonProps {
     onClick ?: () => void,
     className ?: string
 }
+
+export interface Card_Plant_Props {
+
+    card_img : string;
+    card_text : string;
+    card_price : string;
+}

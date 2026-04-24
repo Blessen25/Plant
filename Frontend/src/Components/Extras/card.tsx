@@ -1,3 +1,4 @@
+import type { Card_Plant_Props } from '../../interface';
 import './card.css';
 
 export const Cards_Best_Seller = () => {
@@ -6,22 +7,25 @@ export const Cards_Best_Seller = () => {
 
         <>
             <div className="card_div">
-                <Card_Best/>
-                <Card_Best/>
-                <Card_Best/>
+                <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='' card_text='' />
+                <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='' card_text='' />
+                <Card_Best card_img='../../public/assets/images/plant_one.png' card_price='' card_text='' />
                 
             </div>
         </>
     )
 }
 
-export const Card_Best = () => {
+export const Card_Best:React.FC<Card_Plant_Props> = (Props) => {
 
     return(
 
         <div className="cards_best">
             <div className="cards_best_img">
-                <img src="" alt="" />
+                <img src={Props.card_img} alt="Plant Image" className='img_plant'/>
+            </div>
+            <div className="cards_details">
+                
             </div>
         </div>
     )
