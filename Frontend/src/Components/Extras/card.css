@@ -49,3 +49,34 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 1299px) {
+    
+    .cards_best_img {
+
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    
+    .cards_best_img {
+
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .cards_best {
+
+        width: 30%;
+    }    
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+   
+
+}
