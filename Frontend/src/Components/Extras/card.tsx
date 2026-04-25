@@ -25,7 +25,7 @@ export const Card_Best:React.FC<Card_Plant_Props> = (Props) => {
             </div>
             <div className="cards_details">
                 <p className='text-small'>{Props.card_text}</p>
-                <p className='text-small'>{Props.card_price}</p>
+                <p className='text-small fw-700'>{Props.card_price}</p>
             </div>
         </div>
     )
