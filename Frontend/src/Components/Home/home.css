@@ -322,6 +322,11 @@
 
         font-size: 11px !important;
     }
+
+    .best-seller {
+
+        width: 380px;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -350,6 +355,11 @@
     .step-1-text {
 
         font-size: 10px !important;
+    }
+
+    .best-seller {
+
+        width: 298px;
     }
 }
 
