@@ -1,5 +1,5 @@
 import Header from "./Components/header"
-import { Home_Best_House_Plants, Home_Best_Seller, Home_Plant_Steps, Home_Take_Care } from "./Components/Home/home";
+import { Home_Best_House_Plants, Home_Best_Seller, Home_Plant_Steps, Home_Take_Care, ReviewsSection } from "./Components/Home/home";
 import './typography.css';
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
         <Home_Take_Care />
         <Home_Plant_Steps />
         <Home_Best_Seller />
+        <ReviewsSection />
       </div>  
     </div>
     </>

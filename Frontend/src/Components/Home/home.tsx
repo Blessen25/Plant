@@ -92,3 +92,46 @@ export const Home_Best_Seller = () => {
     )
 }
 
+export const ReviewsSection = () => {
+  return (
+    <section className="reviews_section">
+      <div className="reviews_left">
+        <h3 className="reviews_label">REVIEWS</h3>
+
+        <p className="reviews_description">
+          Shop with confidence by reading customer reviews given by individuals
+          who have used Bioomey. Excellent quality and streamlined service are
+          both offered here.
+        </p>
+
+        <div className="reviews_rating">
+          <span className="reviews_stars">★ ★ ★ ★ ★</span>
+          <span className="reviews_score">5/5</span>
+        </div>
+
+        <p className="reviews_count">2.479 reviews</p>
+      </div>
+
+      <div className="reviews_content">
+        <div className="reviews_arrows">
+          <button className="reviews_arrow_btn">
+          </button>
+          <button className="reviews_arrow_btn">
+          </button>
+        </div>
+
+        <p className="reviews_quote">
+          We adore all our friends atBloomey, especially the beauties who have
+          come to live with us! Great advice when needed, beautifully and safely
+          packaged. Highly recommend, it's just the best place for healthy plants
+          and great value!
+        </p>
+
+        <div className="reviews_author">
+          <h4>Pamela S.</h4>
+          <p>Lake Forest, CA</p>
+        </div>
+      </div>
+    </section>
+  );
+};
