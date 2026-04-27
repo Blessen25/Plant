@@ -1,7 +1,8 @@
-import {Button_with_icon_primary, Button_with_icon_secondary_rev, Button_withouticon_primary} from '../Extras/button';
+import {Button_with_icon_secondary_rev, Button_withouticon_primary} from '../Extras/button';
 import { Cards_Best_Seller } from '../Extras/card';
 
 import './home.css';
+import './reviews.css';
 
 export const Home_Best_House_Plants = () => {
 
@@ -96,40 +97,42 @@ export const ReviewsSection = () => {
   return (
     <section className="reviews_section">
       <div className="reviews_left">
-        <h3 className="reviews_label">REVIEWS</h3>
+        <h5 className="reviews_label">REVIEWS</h5>
 
-        <p className="reviews_description">
+        <p className="reviews_description text-normal">
           Shop with confidence by reading customer reviews given by individuals
           who have used Bioomey. Excellent quality and streamlined service are
           both offered here.
         </p>
 
         <div className="reviews_rating">
-          <span className="reviews_stars">★ ★ ★ ★ ★</span>
-          <span className="reviews_score">5/5</span>
+          <span className="reviews_stars text-normal">★ ★ ★ ★ ★</span>
+          <span className="reviews_score text-normal">5/5</span>
         </div>
 
-        <p className="reviews_count">2.479 reviews</p>
+        <p className="reviews_count text-small">2.479 reviews</p>
       </div>
 
       <div className="reviews_content">
         <div className="reviews_arrows">
           <button className="reviews_arrow_btn">
+            <i className="fa-solid fa-arrow-left icon-sm"></i>
           </button>
           <button className="reviews_arrow_btn">
+            <i className="fa-solid fa-arrow-right icon-sm"></i>
           </button>
         </div>
 
-        <p className="reviews_quote">
+        <h2 className="reviews_quote">
           We adore all our friends atBloomey, especially the beauties who have
           come to live with us! Great advice when needed, beautifully and safely
           packaged. Highly recommend, it's just the best place for healthy plants
           and great value!
-        </p>
+        </h2>
 
         <div className="reviews_author">
-          <h4>Pamela S.</h4>
-          <p>Lake Forest, CA</p>
+          <h5>Pamela S.</h5>
+          <p className='text-small'>Lake Forest, CA</p>
         </div>
       </div>
     </section>
