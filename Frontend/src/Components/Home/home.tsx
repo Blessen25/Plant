@@ -138,3 +138,26 @@ export const ReviewsSection = () => {
     </section>
   );
 };
+
+export const Inspired_Home = () => {
+
+    return(
+
+        <>
+            <div className="inspired_div">
+                <div className="inspired_two_images">
+                    <img src="/public/Assets/images/inspired_img_one.png" alt="Inspired Image" className='inspired_img_one' />
+                    <img src="/public/Assets/images/inspired_img_two.png" alt="Inspired Image" className='inspired_img_two' />
+                </div>
+                <div className="inspired_three">
+                    <div className="inspired_three_content">
+                        <h2 className='fw-500'>Get inspired from our Instagram</h2>
+                        <p className='text-small'>If you use the hashtag #bioomey on Instagram, well spotlight you.</p>
+                        <Button_withouticon_primary text='Follow Us'/>
+                    </div>
+                    <img src="/public/Assets/images/inspired_img_three.png" alt="Inspired Image" className='inspired_img_three' />
+                </div>
+            </div>
+        </>
+    )
+}

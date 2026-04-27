@@ -142,6 +142,57 @@
     width: 500px;
 }
 
+.inspired_div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inspired_two_images {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.inspired_img_one {
+
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.inspired_img_two {
+
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.inspired_img_three {
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.inspired_three {
+
+    position: relative;
+}
+
+.inspired_three_content {
+
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 @media screen and (max-width:1299px) {
     
     .home_step_background {
