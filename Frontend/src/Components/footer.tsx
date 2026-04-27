@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_one">
-        <img src="/public/Assets/logo/plantyxlogo.jpg" alt="Planty'x Logo" />
+        <img src="/Assets/logo/plantyxlogo.jpg" alt="Planty'x Logo" loading='lazy'/>
       </div>
       <div className="footer_two">
         <p className='text-normal'>Help</p>
