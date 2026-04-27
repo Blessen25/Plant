@@ -151,7 +151,7 @@ export const Inspired_Home = () => {
                 </div>
                 <div className="inspired_three">
                     <div className="inspired_three_content">
-                        <h2 className='fw-500'>Get inspired from our Instagram</h2>
+                        <h2 className='fw-600'>Get inspired from our Instagram</h2>
                         <p className='text-small'>If you use the hashtag #bioomey on Instagram, well spotlight you.</p>
                         <Button_withouticon_primary text='Follow Us'/>
                     </div>
