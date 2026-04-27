@@ -146,8 +146,8 @@ export const Inspired_Home = () => {
         <>
             <div className="inspired_div">
                 <div className="inspired_two_images">
-                    <img src="/public/Assets/images/inspired_img_one.png" alt="Inspired Image" className='inspired_img_one' />
-                    <img src="/public/Assets/images/inspired_img_two.png" alt="Inspired Image" className='inspired_img_two' />
+                    <img src="/Assets/images/Inspired_img_one.png" alt="Inspired Image" className='inspired_img_one' loading='lazy'/>
+                    <img src="/Assets/images/Inspired_img_two.png" alt="Inspired Image" className='inspired_img_two' loading='lazy'/>
                 </div>
                 <div className="inspired_three">
                     <div className="inspired_three_content">
@@ -155,7 +155,7 @@ export const Inspired_Home = () => {
                         <p className='text-small'>If you use the hashtag #bioomey on Instagram, well spotlight you.</p>
                         <Button_withouticon_primary text='Follow Us'/>
                     </div>
-                    <img src="/public/Assets/images/inspired_img_three.png" alt="Inspired Image" className='inspired_img_three' />
+                    <img src="/Assets/images/Inspired_img_three.png" alt="Inspired Image" className='inspired_img_three' loading='lazy'/>
                 </div>
             </div>
         </>
