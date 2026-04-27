@@ -7,7 +7,6 @@
     gap: 50px;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
 }
 
 .footer_one {
@@ -19,4 +18,42 @@
 
     display: flex;
     gap: 30px;
+}
+
+.footer_three {
+
+    display: flex;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    .footer {
+
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+
+    .footer {
+
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .footer_two {
+
+        gap: 15px;
+    }
+
+    .footer_three {
+
+        gap: 15px;
+    }
 }
