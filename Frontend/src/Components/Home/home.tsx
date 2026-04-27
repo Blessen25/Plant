@@ -161,3 +161,20 @@ export const Inspired_Home = () => {
         </>
     )
 }
+
+export const Special_offers = () => {
+
+    return(
+
+        <>
+            <div className="special_offer">
+                <h3 className='special_offer1'>Stay update with special offers,plant-parenting tips, and more.</h3>
+                <div className="subscribe_form">
+                    <input type="email" placeholder="Your email" />
+                    <Button_withouticon_primary text='Subscribe'/>
+                </div>
+            </div>
+        </>
+    )
+}
+

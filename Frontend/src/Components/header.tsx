@@ -12,10 +12,10 @@ const Header = () => {
                 </div>
 
                 <div className="headerdetails">
-                    <a>Plants</a>
-                    <a>For offices</a>
-                    <a>Plants core</a>
-                    <a>About</a>
+                    <a className="text-normal">Plants</a>
+                    <a className="text-normal">For offices</a>
+                    <a className="text-normal">Plants core</a>
+                    <a className="text-normal">About</a>
                 </div>
 
                 <div className="headericons">
@@ -49,10 +49,10 @@ const Header = () => {
                 </div>
 
                 <div className="sidebar-links">
-                    <a>Plants</a>
-                    <a>For offices</a>
-                    <a>Plants core</a>
-                    <a>About</a>
+                    <a className="text-normal">Plants</a>
+                    <a className="text-normal">For offices</a>
+                    <a className="text-normal">Plants core</a>
+                    <a className="text-normal">About</a>
                 </div>
             </div>
 

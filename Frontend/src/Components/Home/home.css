@@ -193,6 +193,45 @@
     gap: 20px;
 }
 
+.special_offer {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.special_offer1{
+
+    width: 50%;
+}
+
+
+.subscribe_form {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #2b1717;
+  padding-bottom: 6px;
+}
+
+.subscribe_form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13px;
+  color: #2b1717;
+}
+
+.subscribe_form input::placeholder {
+  color: #2b1717;
+}
+
+
+
 @media screen and (max-width:1299px) {
     
     .home_step_background {
@@ -309,6 +348,21 @@
         left: 40px;
     }
     
+    .special_offer1 {
+
+        width: 100%;
+    }
+
+    .subscribe_form {
+
+        width: 100%;
+    }
+    
+    .special_offer {
+
+        flex-direction: column;
+        gap: 20px;
+    }
 
 }
 
@@ -425,6 +479,16 @@
     .inspired_div {
 
         gap: 15px;
+    }
+
+    .special_offer {
+
+        gap: 15px;
+    }
+
+    .subscribe_form input{
+
+        font-size: 10px;
     }
 
 }
